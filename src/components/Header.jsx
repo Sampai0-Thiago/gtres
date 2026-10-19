@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import style from './Header.module.css';
 
 export function Header({brand, description, children}) {
     return(
         <header className= {style.header}>
 
-            <div className={style.brand}>
+            <Link to={'/'} className={style.brand}>
 
                 <span className={style.logo}>GT</span>
 
@@ -13,7 +14,7 @@ export function Header({brand, description, children}) {
                     <span>{description}</span>
                 </div>
 
-            </div>
+            </Link>
 
             <nav className={style.navigation}>
                 {children}

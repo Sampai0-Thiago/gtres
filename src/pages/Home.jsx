@@ -1,7 +1,7 @@
 import Greetings from "../components/Greetings";
 
 
-const user = window.prompt("Qual o seu nome?") || "Visitante";
+//const user = window.prompt("Qual o seu nome?") || "Visitante";
 
 function Home(){
 
