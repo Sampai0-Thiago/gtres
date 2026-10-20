@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +24,7 @@ function App() {
         <Routes>
           <Route path='/' element = {<Home/>}/>
           <Route path = '*' element = {<Home/>}/>
-          <Route path = '/' element = {<Contact/>}/>          
+          <Route path = '/contato' element = {<Contact/>}/>          
         </Routes>
       </main>
 
